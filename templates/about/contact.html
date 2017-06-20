@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"
+          rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    {% extends "layout.html" %}
+    {% block content %}
+        <!--============================box body====================================--->
+    <div class="container">
+    <div id="content">
+      <div class="container" id="about">
+        <div class="row">
+          <!--main content-->
+          <div class="col-md-9 col-md-push-3">
+            <div class="page-header">
+              <h1>
+                TMCE Mandate &amp; Objectives
+               </h1>
+            </div>
+            <div class="block-highlight block-pd-h block-pd-sm">
+               <h3 class="block-title">
+                TMCE Mandate
+              </h3>
+                <p class="text-fancy">
+                     <h5>The original mandate of the MUPSF was threefold:</h5><br>
+                    •	To build knowledge transfer partnerships with the public and private sectors<br>
+                    •	To increase public/private sector participation in the university affairs<br>
+                    •	To promote private sector competitiveness and value addition to university products<br><br></p>
+
+              <h3 class="block-title">
+               Specific Objectives
+              </h3>
+              <p class="text-fancy">
+                    1.  To encourage private sector to participate in university activities<br>
+                    2.	To lobby and advocate for policies in the interest of all stakeholders<br>
+                    3.	To promote the development of demand driven skills at the university<br>
+                    4.	To enhance research, technology development and transfer for the private sector needs<br>
+                    5.	To foster a strong and sustainable collaboration and networking in the region </p>
+            </div>
+              <!--===========================-->
+                 </div>
+
+          <!-- sidebar -->
+                    <div class="col-md-3 col-md-pull-9 sidebar visible-md-block visible-lg-block">
+                     <ul class="nav nav-pills nav-stacked">
+              <li>
+                  <a href="/about/Executive-Director/" >
+                      <small><span><h4>Executive Director's </h4></span></small>
+                  <small>Welcome Message</small>
+                </a>
+              </li>
+              <li>
+                <a href="/about/Chairman-TMCE/" >
+                 <small><h4> The Chairman TMCE</h4></small>
+                  <small>Chairman's Message</small>
+                </a>
+              </li>
+              <li >
+                <a href="/about/mission&Vision/" >
+                    <small><h4>Vision &amp; Mision </h4></small>
+                  <small>Our major aim</small>
+                </a>
+              </li>
+                         <li >
+                <a href="/about/background-of-TMCE/">
+                 <small><h4>History of TMCE</h4></small>
+                  <small>Our Background</small>
+                </a>
+              </li>
+              <li class="active">
+                <a href="/about/mandate/">
+                <small><h4>TMCE Mandate</h4></small>
+                  <small>our Mandate</small>
+                </a>
+              </li>
+                            <li>
+                <a href="/about/activities/">
+                    <small> <h4>TMCE Activities </h4> </small>
+                  <small>Activities at the Centre</small>
+                </a>
+              </li>
+            </ul>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="alert">
+        {{ message }}
+      </div>
+    </div>
+    <!--============================End of First container====================================--->
+
+    {% endblock %}
+  </body>
+</html>
